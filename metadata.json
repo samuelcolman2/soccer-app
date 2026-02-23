@@ -1,0 +1,5 @@
+{
+  "name": "Sorteio de Futebol",
+  "description": "Plataforma para organizar peladas e sortear times de futebol em tempo real.",
+  "requestFramePermissions": []
+}

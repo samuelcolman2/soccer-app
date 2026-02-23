@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #121A29;
+  --color-secondary: #0C1222;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-secondary);
+  color: #ffffff;
+}
+
+/* Global Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080D17; /* Trilha um pouco mais escura */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0E1521; /* Polegar da barra de rolagem */
+  border-radius: 10px;
+  border: 2px solid #080D17; /* Borda mais escura para combinar com a trilha */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1B2436;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0E1521 #080D17; /* Polegar e trilha para Firefox */
+}
